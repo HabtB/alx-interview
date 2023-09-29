@@ -1,6 +1,12 @@
 #!/usr/bin/python3
+""" Pascal Triangle """
+
 
 def pascal_triangle(n):
+    """ This defines pascal traingle
+        n: is the length of the triangle
+    """
+
     if n <= 0:
         return []
 
